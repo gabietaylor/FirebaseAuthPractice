@@ -42,12 +42,12 @@ $(".signup").on("click", function(event) {
 // ================================================
 // Google
 // ================================================
-var provider = new firebase.auth.GoogleAuthProvider();
+var providerG = new firebase.auth.GoogleAuthProvider();
 $(".google").on("click", function googleSignin(event) {
     event.preventDefault();
 
     auth
-        .signInWithPopup(provider).then(function(googleUser) {
+        .signInWithPopup(providerG).then(function(googleUser) {
             var token = googleUser.credential.accessToken;
             var user = googleUser.user;
             console.log(googleUser)
@@ -142,7 +142,41 @@ $(".facebookout").on("click", function facebookSignout(event) {
 // ================================================
 // Twitter
 // ================================================
+var providertw = new firebase.auth.TwitterAuthProvider();
+$(".twitter").on("click", function twitterSignin(event) {
+    event.preventDefault();
+    auth.signInWithPopup(providertw)
+        .then(function(twUser) {
+            var token = twUser.credential.accessToken;
+            var user = twUser.user;
+            console.log(twUser)
 
+            var ref = db.ref("usersTwitter");
+            var data = {
+                name: twUser.user.displayName,
+                email: twUser.user.email,
+                id: twUser.user.uid
+            };
+            ref.push(data)
+            console.log(token)
+            console.log(user)
+        }).catch(function(error) {
+            console.log(error.code);
+            console.log(error.message);
+        });
+    console.log("twitter sign in")
+});
+
+$(".twitterout").on("click", function twitterSignout(event) {
+    event.preventDefault();
+    firebase.auth().signOut()
+        .then(function() {
+            console.log('Signout successful!')
+        }, function(error) {
+            console.log('Signout failed')
+        });
+    console.log("twitter sign in")
+});
 
 // ================================================
 // Github

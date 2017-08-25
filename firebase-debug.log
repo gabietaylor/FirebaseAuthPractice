@@ -10,3 +10,19 @@
 [debug] [2017-08-25T19:26:27.169Z] > authorizing via signed-in user
 [debug] [2017-08-25T19:26:27.170Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbauthprac  
  Fri Aug 25 2017 15:26:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:26:28.143Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T19:26:28.144Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbauthprac/tokens  
+ Fri Aug 25 2017 15:26:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:26:29.095Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\ikech\Desktop\Repositories\Practice\FirebaseAuthPractice'...
+[info] 
+[debug] [2017-08-25T19:26:29.102Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbauthprac  
+ Fri Aug 25 2017 15:26:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:26:29.914Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T19:26:29.914Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/692654301253/clients/_:getWebAppConfig  
+ Fri Aug 25 2017 15:26:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:26:30.939Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
