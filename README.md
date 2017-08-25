@@ -1,1 +1,3 @@
 # FirebaseAuthPractice
+
+## Run 'firebase serve'
