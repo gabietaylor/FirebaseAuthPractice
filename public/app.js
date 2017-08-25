@@ -217,3 +217,37 @@ $(".githubout").on("click", function githubSignout(event) {
         });
     console.log("github sign out")
 });
+
+// =====================================================
+// Why not try Dbs too how hard could it be (w/o click)
+// =====================================================
+var animalsRef = firebase.database().ref("animals/");
+
+animalsRef.set({
+    Dog: {
+        type: "pitbull",
+        age: 8
+    },
+
+    Cat: {
+        type: "siberian",
+        age: 2
+    }
+});
+
+// =====================================================
+// Why not try Dbs too how hard could it be (w/ click)
+// =====================================================
+$(".createFood").on("click", function facebookSignout(event) {
+    event.preventDefault();
+
+    var foodRef = firebase.database().ref("Food");
+
+    foodRef.set({
+        breakfast: "pancakes",
+        lunch: "club sandwich",
+        dinner: "pot roast"
+    })
+
+    console.log("database created")
+});
