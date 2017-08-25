@@ -1,0 +1,12 @@
+[debug] [2017-08-25T19:26:27.156Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T19:26:27.158Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ikech\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-25T19:26:27.158Z] CLI Version:   3.9.2
+[debug] [2017-08-25T19:26:27.158Z] Platform:      win32
+[debug] [2017-08-25T19:26:27.158Z] Node Version:  v7.9.0
+[debug] [2017-08-25T19:26:27.159Z] Time:          Fri Aug 25 2017 15:26:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:26:27.159Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T19:26:27.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T19:26:27.169Z] > authorizing via signed-in user
+[debug] [2017-08-25T19:26:27.170Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbauthprac  
+ Fri Aug 25 2017 15:26:27 GMT-0400 (Eastern Daylight Time)
