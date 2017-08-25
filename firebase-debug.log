@@ -27,3 +27,31 @@
 [info] +  hosting: Local server: http://localhost:5000
 
 [info] Shutting down...
+[debug] [2017-08-25T19:57:41.035Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T19:57:41.038Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ikech\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-25T19:57:41.038Z] CLI Version:   3.9.2
+[debug] [2017-08-25T19:57:41.038Z] Platform:      win32
+[debug] [2017-08-25T19:57:41.038Z] Node Version:  v7.9.0
+[debug] [2017-08-25T19:57:41.039Z] Time:          Fri Aug 25 2017 15:57:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:57:41.039Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T19:57:41.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T19:57:41.049Z] > authorizing via signed-in user
+[debug] [2017-08-25T19:57:41.051Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbauthprac  
+ Fri Aug 25 2017 15:57:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:57:42.007Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T19:57:42.008Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbauthprac/tokens  
+ Fri Aug 25 2017 15:57:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:57:42.823Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\ikech\Desktop\Repositories\Practice\FirebaseAuthPractice'...
+[info] 
+[debug] [2017-08-25T19:57:42.827Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbauthprac  
+ Fri Aug 25 2017 15:57:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:57:43.643Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T19:57:43.644Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/692654301253/clients/_:getWebAppConfig  
+ Fri Aug 25 2017 15:57:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-25T19:57:44.666Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
